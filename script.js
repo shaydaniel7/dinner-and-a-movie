@@ -7,21 +7,21 @@ $(document).ready(function () {
         var cityURL = "https://developers.zomato.com/api/v2.1/cities";
     })
 
-    // enables a user to just hit enter to submit city search
-    // $(".form-control").keypress(function (event) {
-    //     if (event.keyCode === 13) {
-    //         $(".btn-secondary").click();
-    //         console.log("enter key works")
-    //     }
-    // })
+    enables a user to just hit enter to submit city search
+    $(".form-control").keypress(function (event) {
+        if (event.keyCode === 13) {
+            $(".btn-secondary").click();
+            console.log("enter key works")
+        }
+    })
 
-    // // button event listener -----------------
-    // $(".btn-secondary").on("click", function () {
-    //     var cityInput = $("#city-input").val()
-    //     var cuisineInput = $("#cuisine-input").val()
-    //     var cuisineURL = "https://developers.zomato.com/api/v2.1/cities";
-    //     console.log("button works")
-    // })
+    // button event listener -----------------
+    $(".btn-secondary").on("click", function () {
+        var cityInput = $("#city-input").val()
+        var cuisineInput = $("#cuisine-input").val()
+        var cuisineURL = "https://developers.zomato.com/api/v2.1/cities";
+        console.log("button works")
+    })
 
         // call to get city 
         var cityURL = "https://developers.zomato.com/api/v2.1/cities";
