@@ -7,25 +7,25 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header class="jumbotron">
-        <h1>Food and Movie</h1>
-    </header>
+    <div class="jumbotron">
+        <h1 id="bannerHeader">Dinner and a Movie</h1>
+    </div>
     <br>
     <!--<img src="https://cdn.pixabay.com/photo/2017/04/15/23/57/film-2233656_960_720.jpg">
         -->
     <div class="container">
     <div class="container-food">
         <div class="search-food">
-            <input type="text" id="search-city" placeholder="city"><br>
-            <input type="text" id="search-cuisine" placeholder="cuisine"><br><br>
-            <button id="search-button" onclick="citySearch()">Submit</button><br>
+            <input type="text" id="search-city" placeholder="City"><br>
+            <input type="text" id="search-cuisine" placeholder="Cuisine"><br>
+            <button id="search-button" onclick="citySearch()">Search</button><br>
         </div>
         <div class="food-results">
             <ul class="list-food-results"></ul>
-            <p>Display results</p>
         </div>
     </div>
     <hr id="vertical">
@@ -34,31 +34,30 @@
             <div class="search-movie">
                 <form placeholder="genre">
                     <p>
-                        <label>Genre</label>
+                        <label id="labelGenre">Genre</label>
                         <select id="genreSelection" placeholder="genre">
                             <option value="null"></option>
-                            <option value="35">comedy</option>
+                            <option value="35">Comedy</option>
                             <!-- id: 35 -->
-                            <option value="18">drama</option>
+                            <option value="18">Drama</option>
                             <!-- id: 18 -->
-                            <option value="28">action</option>
+                            <option value="28">Action</option>
                             <!-- id: 28 -->
-                            <option value="27">horror</option>
+                            <option value="27">Horror</option>
                             <!-- id: 27 -->
-                            <option value="878">science fiction</option>
+                            <option value="878">Science Fiction</option>
                             <!-- id: 878 -->
-                            <option value="16">animation</option>
+                            <option value="16">Animation</option>
                             <!-- id: 16 -->
                         </select>
                     </p>
                 </form>
                 <div class="button-container">
-                    <button id="movie-search-button" onclick="movieSearch()">Submit</button>
+                    <button id="movie-search-button" onclick="movieSearch()">Search</button>
                 </div>
             </div>
             <div class="movie-results">
             <ul class="list-movie-results"></ul>
-            <p>Display Results</p>
             </div>
         </div>
         </div>
