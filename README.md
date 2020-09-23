@@ -29,7 +29,7 @@ Results are provided using an API from TMDb.
 Screenshot of Results
 ![Results](images/mainblank.png)
 Screenshot of Mobile View
-![Mobile Page](images/phonepage.png)
+<img width="412" alt="phonescreen" src="https://user-images.githubusercontent.com/67557233/94036561-480e7a80-fd79-11ea-83c2-fb00d7ed788b.png">
 
 ### Contributors
     * Chris Covarrubias
