@@ -5,7 +5,7 @@ two sets of input fields for the user to fill out in order to
 retrieve results.
 
 Screenshot of the Main Page
-![Main Page](images/mainpage.png)
+<img width="1265" alt="main" src="https://user-images.githubusercontent.com/67557233/94036424-24e3cb00-fd79-11ea-8941-ef8ff30b083d.png">
 
 ### Getting Results
 Upon loading the webpage, you will find it is divided into two sections.
