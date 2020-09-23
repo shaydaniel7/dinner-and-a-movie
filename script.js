@@ -32,7 +32,7 @@ function cuisineSearch(cityId){
 
 //get city id from response
 function citySearch(){
-  var locationInput = $("#search-city").val(); // may not work
+  var locationInput = $("#search-city").val(); 
   var locationURL = "https://developers.zomato.com/api/v2.1/locations?query=" + locationInput;
   $.ajax({
       url: locationURL,
