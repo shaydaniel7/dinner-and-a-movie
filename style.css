@@ -148,44 +148,7 @@ a{
 }
 
 
-@media screen and (max-width: 1039px) { 
-    .search-movie {
-        background-size: 300px;
-        height: 150px;
-    }
-
-    img{
-        width: 300px;  
-    }
-
-    #genreSelection{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        font-size: 14px;
-        font-family: 'Baloo Tammudu 2', cursive;
-        border: solid gray 1px;
-        padding: 3px;
-        margin-left: 100px;
-        margin-top: 25px;
-    
-    }
-      
-    #movie-search-button{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        font-size: 14px;
-        font-family: 'Baloo Tammudu 2', cursive;
-        border: solid gray 1px;
-        padding: 2px;
-        outline: none;
-        margin-left: 100px;
-    }
-}
-
-
-@media screen and (max-width: 798px) {    
+@media (max-width: 798px) {    
 
     .container {
         width: 100%;
@@ -231,7 +194,31 @@ a{
         height: 150px;
     }
 
+    #genreSelection{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-family: 'Baloo Tammudu 2', cursive;
+        border: solid gray 1px;
+        padding: 3px;
+        margin-left: 100px;
+        margin-top: 25px;
     
+    }
+      
+    #movie-search-button{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-family: 'Baloo Tammudu 2', cursive;
+        border: solid gray 1px;
+        padding: 2px;
+        outline: none;
+        margin-left: 100px;
+    }
+
     img{
         width: 300px;  
     }
