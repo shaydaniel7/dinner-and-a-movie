@@ -24,7 +24,6 @@ function cuisineSearch(cityId){
       }
       else {
         //cuisine not found
-        
         alert("Cuisine type not found in your city!");
       }
   });

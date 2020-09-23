@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(252, 248, 231);
+    color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.jumbotron{
+    background-image: url(banner2.jpg);
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(161, 16, 16);
+    margin-bottom: 30px;
+}
+
+#bannerHeader{
+    font-size: 60px;
+    padding: -60px;
+    font-family: 'Spicy Rice', cursive;}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-food{
+    width: 40%; 
+    margin-left: 5%;
+}
+
+.search-food{
+    /* margin-bottom: 50px;
+    outline: none; */
+    /* 1 */
+    
+
+}
+
+.search-movie{
+    margin-bottom: 50px;
+    outline: none;
+    background-image: url(ticket3.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+  
+}
+
+.container-movie{
+    width: 40%; 
+    margin-right: 5%;
+}
+
+#search-city{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 7px;
+    border: solid gray 1px;
+    margin-bottom:  5px;
+    margin-right: 315px;
+
+}
+
+.search-food{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#search-cuisine{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 7px;
+    border: solid gray 1px;
+    margin-bottom:  5px;
+    margin-right: 15px;
+}
+
+#search-button{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    /* padding: 3px; */
+    border: solid gray 1px;
+    outline: none;
+
+
+
+}
+
+.food-results{
+    font-size: 20px;
+    line-height: 90%;
+}
+
+#labelGenre{
+    font-size: 30px;
+    padding: 5px;
+}
+
+#genreSelection{
+    height: 45px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    border: solid gray 1px;
+    padding: 7px;
+    margin-left: 125px;
+    margin-top: 35px;
+
+}
+
+option{
+    font-size: 20px;
+}
+
+#movie-search-button{
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    border: solid gray 1px;
+    outline: none;
+    margin-left: 125px;
+
+    /* margin-top: 5px; */
+    /* padding: 5px; */
+}
+
+.movie-results{
+    width: 500px;
+}
+
+img{
+  width: 400px;  
+}
+
+a{
+    color: rgb(34, 34, 34);
+}
+
+@media (max-width: 798px) {    
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #bannerHeader{
+        font-size: 35px;
+        /* padding: -60px; */
+        font-family: 'Spicy Rice', cursive;}
+    
+    .jumbotron {
+        background-image: url(banner2sm.jpg);
+        width: 100%;
+        /* align-content: center; */
+        height: auto;
+        /* text-align: center; */
+        margin: auto;
+        /* background-size: cover; */
+        box-shadow: 2px 2px 2px 0px rgb(150, 149, 149);
+       
+    }
+  
+    .container-food{
+        width: 90%;
+    }
+
+    .container-movie{
+        width: 90%;
+    }
+
+    .movie-results{
+        width: 80%;
+    }
+
+    .food-results{
+        width: 90%;
+    }
+
+    .search-movie {
+        background-size: 300px;
+        height: 150px;
+    }
+
+    #genreSelection{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-family: 'Baloo Tammudu 2', cursive;
+        border: solid gray 1px;
+        padding: 5px;
+        margin-left: 100px;
+        margin-top: 25px;
+    
+    }
+    
+    
+    #movie-search-button{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-family: 'Baloo Tammudu 2', cursive;
+        border: solid gray 1px;
+        outline: none;
+        margin-left: 100px;
+
+  }
