@@ -227,32 +227,7 @@ a{
         height: 150px;
     }
 
-    #genreSelection{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        font-size: 14px;
-        font-family: 'Baloo Tammudu 2', cursive;
-        border: solid gray 1px;
-        padding: 3px;
-        margin-left: 100px;
-        margin-top: 25px;
     
-    }
-      
-    #movie-search-button{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        font-size: 14px;
-        font-family: 'Baloo Tammudu 2', cursive;
-        border: solid gray 1px;
-        padding: 2px;
-        outline: none;
-        margin-left: 100px;
-
-    }
-
     img{
         width: 300px;  
     }
