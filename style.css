@@ -154,6 +154,10 @@ a{
         height: 150px;
     }
 
+    img{
+        width: 300px;  
+    }
+
     #genreSelection{
         height: 30px;
         width: 100px;
