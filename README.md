@@ -26,6 +26,4 @@ Results are provided using an API from TMDb.
     * Cody Mullen
     * Hao Lam
     * Patrick Tomas
-    * Shay Daniel (edited) 
-5:41
-**Make sure to remove any website link previews if they are popping up by clicking the X before copying the code.
+    * Shay Daniel
