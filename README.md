@@ -27,7 +27,7 @@ Results are provided using an API from TMDb.
 [Link to TMDb API](https://developers.themoviedb.org/ "Link to TMDb API")
 
 Screenshot of Results
-![Results](images/mainblank.png)
+<img width="1023" alt="blankmain" src="https://user-images.githubusercontent.com/67557233/94036568-49d83e00-fd79-11ea-85d8-a68c46333fca.png">
 Screenshot of Mobile View
 <img width="412" alt="phonescreen" src="https://user-images.githubusercontent.com/67557233/94036561-480e7a80-fd79-11ea-83c2-fb00d7ed788b.png">
 
