@@ -4,7 +4,7 @@ task of picking where to eat and what movie to watch. There are
 two sets of input fields for the user to fill out in order to
 retrieve results.
 
-######Screenshot of the Main Page
+###### Screenshot of the Main Page
 <img width="1265" alt="main" src="https://user-images.githubusercontent.com/67557233/94036568-49d83e00-fd79-11ea-85d8-a68c46333fca.png">
 
 
@@ -27,10 +27,10 @@ selection box to display a list of 10 movies of that genre. The movies
 are sorted by current popularity.
 Results are provided using an [API from TMDB.](https://developers.themoviedb.org/ "Link to TMDb API")
 
-######Screenshot of Results
+###### Screenshot of Results
 <img width="1023" alt="blankmain" src="https://user-images.githubusercontent.com/67557233/94036424-24e3cb00-fd79-11ea-8941-ef8ff30b083d.png">
 
-######Screenshot of Mobile View
+###### Screenshot of Mobile View
 <img width="412" alt="phonescreen" src="https://user-images.githubusercontent.com/67557233/94036561-480e7a80-fd79-11ea-83c2-fb00d7ed788b.png">
 
 ### Contributors
