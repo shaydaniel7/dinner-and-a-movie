@@ -3,6 +3,10 @@ This webpage provides some guidance on the simple yet difficult
 task of picking where to eat and what movie to watch. There are 
 two sets of input fields for the user to fill out in order to
 retrieve results.
+
+Screenshot of the Main Page
+![Main Page](images/mainpage.png)
+
 ### Getting Results
 Upon loading the webpage, you will find it is divided into two sections.
 On the left you will find two input boxes: one to enter the city you reside
@@ -21,6 +25,12 @@ selection box to display a list of 10 movies of that genre. The movies
 are sorted by current popularity.
 Results are provided using an API from TMDb.
 [Link to TMDb API](https://developers.themoviedb.org/ "Link to TMDb API")
+
+Screenshot of Results
+![Results](images/mainblank.png)
+Screenshot of Mobile View
+![Mobile Page](images/phonepage.png)
+
 ### Contributors
     * Chris Covarrubias
     * Cody Mullen
