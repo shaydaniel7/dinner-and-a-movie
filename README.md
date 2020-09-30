@@ -27,6 +27,10 @@ selection box to display a list of 10 movies of that genre. The movies
 are sorted by current popularity.
 Results are provided using an [API from TMDB.](https://developers.themoviedb.org/ "Link to TMDb API")
 
+#### Uses:
+
+HTML, CSS, JavaScript and jQuery.
+
 ###### Screenshot of Results
 <img width="1023" alt="blankmain" src="https://user-images.githubusercontent.com/67557233/94036424-24e3cb00-fd79-11ea-8941-ef8ff30b083d.png">
 
