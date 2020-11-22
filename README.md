@@ -4,7 +4,7 @@ task of picking where to eat and what movie to watch. There are
 two sets of input fields for the user to fill out in order to
 retrieve results.
 
-###### Screenshot of the Main Page
+### Screenshot of the Main Page
 <img width="1265" alt="main" src="https://user-images.githubusercontent.com/67557233/94036568-49d83e00-fd79-11ea-85d8-a68c46333fca.png">
 
 
@@ -28,7 +28,6 @@ are sorted by current popularity.
 Results are provided using an [API from TMDB.](https://developers.themoviedb.org/ "Link to TMDb API")
 
 #### Uses:
-
 HTML, CSS, JavaScript and jQuery.
 
 ###### Screenshot of Results
