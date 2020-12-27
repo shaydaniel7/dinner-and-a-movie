@@ -43,6 +43,6 @@ HTML, CSS, JavaScript and jQuery.
     * Patrick Tomas
     * Shay Daniel
 
-Visit the [Dinner and a Movie](https://shaydaniel7.github.io/projectbf/ "Link to Dinner and a Movie app") page.
+Visit the [Dinner and a Movie](https://shaydaniel7.github.io/dinner-and-a-movie/ "Link to Dinner and a Movie app") page.
 
-[Here](https://github.com/shaydaniel7/projectbf "Link to github repository") is the github repository.
+[Here](https://github.com/shaydaniel7/dinner-and-a-movie "Link to github repository") is the github repository.
